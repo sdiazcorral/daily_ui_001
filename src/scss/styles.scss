@@ -1,0 +1,139 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css");
+
+html {
+  font-family: 'Assistant', sans-serif;
+  font-size: 15px;
+  color: #212D3C;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: {
+    color: #009fee;
+    image: url('../img/background_image.jpg');
+    repeat: no-repeat;
+    position: center;
+    size: cover;
+  }
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-container {
+  display: inline-flex;
+  border-radius: 8px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 775px;
+  height: 464px;
+  box-shadow: 0 0 16px rgba(0,0,0,.22);
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 24px;
+  max-width: 350px;
+}
+
+.form_title {
+  font-size: 1.33rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+label {
+  font-size: .66rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  font-size: 1rem;
+  font-family: 'Assistant', sans-serif;
+  padding: 16px;
+  border: 1px solid #DDE4EC;
+  width: 100%;
+  margin-bottom: 24px;
+  &:focus {
+    border-color: #A7C1DF;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(210,210,210,.96);
+  }
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  border: none;
+  font-size: 1rem;
+  font-family: 'Assistant', sans-serif;
+  background-color: #205797;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 24px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.fine_print {
+  font-size: .86rem;
+  opacity: .4;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 32px;
+  a {
+    color: inherit;
+  }
+}
+
+.fine_print-login {
+  text-align: center;
+  a {
+    font-weight: 700;
+    color: inherit;
+  }
+}
+
+.signup-form-marketing {
+  max-width: 425px;
+  background-color: #205797;
+  color: #fff;
+  padding: 48px 40px;
+}
+
+.pandora_logo {
+  margin-bottom: 32px;
+}
+
+.marketing-title {
+  font-size: 2rem;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+
+.marketing-features {
+  font-size: 1.33rem;
+  li {
+    margin-bottom: 16px;
+    line-height: normal;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+}
